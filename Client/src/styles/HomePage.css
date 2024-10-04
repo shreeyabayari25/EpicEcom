@@ -1,0 +1,106 @@
+.banner-img {
+    margin-top: 60px;
+  }
+  
+  .home-page h1 {
+    color: rgb(124, 90, 48);
+    font-family: "Playfair Display", serif;
+  }
+  
+  .home-page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .home-page .card {
+    background-color: rgb(124, 90, 48);
+    width: 18rem;
+  }
+  .home-page .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .home-page .card-price {
+    color: rgb(61, 42, 19);
+    font-weight: bold;
+  }
+  .home-page button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .home-page .card-text {
+    color: rgb(124, 90, 48);
+  }
+  
+  .home-page .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .home-page .card-img-top {
+    height: 300px !important;
+  }
+  /* ==================
+  filters
+  ============== */
+  .filters h4 {
+    margin-top: 100px;
+    color: rgb(37, 25, 11) !important;
+    border-bottom: 1px solid rgb(124, 90, 48);
+  }
+  
+  .ant-checkbox-wrapper:first-of-type {
+    margin-left: 8px;
+  }
+  
+  .ant-checkbox-wrapper {
+    margin: 2px;
+  }
+  .ant-radio-wrapper {
+    margin-bottom: 5px !important;
+    margin-left: 10px;
+  }
+  
+  .filters button {
+    background-color: rgb(61, 41, 18);
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    margin-top: 20px;
+  }
+  
+  .loadmore {
+    color: rgb(124, 90, 48);
+    font-weight: bold;
+    font-size: 20px !important;
+  }
+  /*chatbot*/
+  /* Chatbot styling */
+#bp-widget-container {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  z-index: 9999 !important;
+}
+
+.bp-widget-container {
+  height: auto !important;
+  max-height: calc(100vh - 60px) !important;
+  width: 350px !important;
+  bottom: 20px !important;
+  right: 20px !important;
+}
+
+.bp-widget {
+  height: 100% !important;
+}
+
+.bp-widget iframe {
+  height: 100% !important;
+  width: 100% !important;
+}
